@@ -1,4 +1,4 @@
-package com.maksimyurau.android.lab5_notes.components
+package com.maksimyurau.android.lab5_notes.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

@@ -9,8 +9,8 @@ import androidx.compose.material.Scaffold
 import androidx.compose.material.ScaffoldState
 import androidx.compose.material.rememberScaffoldState
 import androidx.compose.runtime.rememberCoroutineScope
-import com.maksimyurau.android.lab5_notes.components.AppDrawer
-import com.maksimyurau.android.lab5_notes.components.Note
+import com.maksimyurau.android.lab5_notes.ui.components.AppDrawer
+import com.maksimyurau.android.lab5_notes.ui.components.Note
 import com.maksimyurau.android.lab5_notes.routing.Screen
 import com.maksimyurau.android.lab5_notes.theme.NotesTheme
 import com.maksimyurau.android.lab5_notes.viewmodel.MainViewModel
