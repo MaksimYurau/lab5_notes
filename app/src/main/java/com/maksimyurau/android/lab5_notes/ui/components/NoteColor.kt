@@ -18,6 +18,7 @@ fun NoteColor() {
             .size(40.dp)
             .background(Color.Red)
             .clip(CircleShape)
+            .background(Color.Yellow)
     )
 }
 
