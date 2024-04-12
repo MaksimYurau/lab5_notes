@@ -18,13 +18,15 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun NoteColor(
+    modifier: Modifier = Modifier, // 1
     color: Color,
     size: Dp,
     padding: Dp = 0.dp,
     border: Dp
 ) {
+
     Box(
-        modifier = Modifier
+        modifier = modifier // 2
             .padding(padding)
             .size(size)
             .clip(CircleShape)
@@ -36,6 +38,7 @@ fun NoteColor(
                 ),
                 CircleShape
             )
+
     )
 }
 
