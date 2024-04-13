@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.maksimyurau.android.lab5_notes.model.ColorModel
@@ -42,4 +43,10 @@ fun ColorItem(
                 .align(Alignment.CenterVertically)
         )
     }
+}
+
+@Preview
+@Composable
+fun ColorItemPreview() {
+    ColorItem(ColorModel.DEFAULT) {}
 }
