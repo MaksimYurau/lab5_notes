@@ -84,3 +84,15 @@ fun ColorItem(
 fun ColorItemPreview() {
     ColorItem(ColorModel.DEFAULT) {}
 }
+
+@Preview
+@Composable
+fun ColorPickerPreview() {
+    ColorPicker(
+        colors = listOf(
+            ColorModel.DEFAULT,
+            ColorModel.DEFAULT,
+            ColorModel.DEFAULT
+        )
+    ) { }
+}
